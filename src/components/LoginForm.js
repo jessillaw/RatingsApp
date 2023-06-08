@@ -14,7 +14,7 @@ const LoginForm = () => {
     setFormData({ username: "", password: "" });
   };
 
-  const handleChange = (event) => {
+  const handleLoginChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevState) => ({
       ...prevState,
@@ -22,6 +22,11 @@ const LoginForm = () => {
       [name]: value,
     }));
   };
+
+  // if existing user tries to sign up, prompt "already exist go log in"
+  // if nonexisting user tries to log in, prompt "to sign up"
+  
+  
 
   return (
     <form onSubmit={handleSubmit}>
@@ -32,7 +37,7 @@ const LoginForm = () => {
             type="text"
             name="username"
             value={formData.username}
-            onChange={handleChange}
+            onChange={handleLoginChange}
           />
         </label>
       </div>
@@ -43,7 +48,7 @@ const LoginForm = () => {
             type="password"
             name="password"
             value={formData.password}
-            onChange={handleChange}
+            onChange={handleLoginChange}
           />
         </label>
       </div>

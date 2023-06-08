@@ -8,10 +8,10 @@ function HomePage () {
         <div className="home-container">
             <ul>
                 <li>
-                    <Link to='/signup'> Sign up!</Link>
+                    <Link to='/Signup'> Sign up!</Link>
                 </li>
                 <li>
-                    <Link to='/login'>Login</Link>
+                    <Link to='/Login'>Login</Link>
                 </li>
             </ul>
         </div>
