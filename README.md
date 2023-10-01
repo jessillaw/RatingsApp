@@ -3,7 +3,7 @@ Rate Your Landlord is a web application that allows users to find, create, and r
 # Technologies
 JavaScript, CSS, React 
 # Setup
-1. To run project, go to [Rate Your Lanlord](https://github.com/jessillaw/RatingsApp)
+1. To run project, go to [Ratings App Repo](https://github.com/jessillaw/RatingsApp)
 # Code Examples
 <code> nano </code>
 # Features
